@@ -1,0 +1,217 @@
+body{
+	background: linear-gradient(180deg, #3A1E08 48.7%, #FFF 100%);
+width: 1080px;
+height: 1235px;
+width: 99%; /* Изменено на 100% */
+    min-height: 100vh; /* Высота экрана */
+}
+
+
+.fop {
+    position: absolute;
+flex-shrink: 0;
+    background: url(<C:\Users\Эльдо\OneDrive\Desktop\Артур\anerland проект\img\1.png>), lightgray 50% / cover no-repeat;
+     width: 1260px;
+height: 638px;
+flex-shrink: 0;
+    left: 0px;
+    top:0px;
+    
+    
+}
+
+.fap{
+	width: 1260px;
+height: 620px;
+flex-shrink: 0;
+position: absolute;
+ left: 0px;
+ z-index: 1;
+
+top: 246px;
+
+}
+
+.fup{
+	width: 144px;
+height: 43px;
+top: 410px;
+right: 220px;
+position: absolute;
+z-index: 0;
+}
+
+
+.fip{
+	position: absolute;
+	z-index: 1;
+flex-shrink: 0;
+background: url(<C:\Users\Эльдо\OneDrive\Desktop\Артур\anerland проект\img\3.png>), lightgray 50% / cover no-repeat;
+right: 0px;
+top: 246px;
+
+}
+
+
+
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #391F0A; 
+    height: 80px; 
+     height: auto; /* Автоматическая высота */
+}
+
+.logo {
+    position: absolute;
+    top: 20px; 
+    left: 20px; 
+    user-select: none;
+}
+
+.ico {
+	width: 145px;
+height: 100px;
+flex-shrink: 0;
+user-select: none;
+
+}
+
+.site-title {
+   top:60px;
+position: absolute;
+left: 400px;
+user-select: none;
+
+    text-align: center; 
+}
+
+.site-title h1 {
+    color: #FFF; 
+    font-size: 24px; 
+    margin: 0; 
+    color: #F1CF9D;
+font-family: Tapestry;
+font-size: 96px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+.title {
+	top:120px;
+position: absolute;
+
+right:350px;
+    
+width: 228px;
+height: 54px;
+transform: rotate(2.57deg);
+flex-shrink: 0;
+user-select: none;
+}
+
+.title h2{
+	color: #FFF;
+font-family: Comforter;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+.search-container {
+  width: 571px;
+  height: 25px;
+  background-color: #53361B;
+  display:flex;
+  position: absolute;
+  right: 350px;
+  border-radius: 10px;
+ z-index: 10;
+  
+  margin: 220px auto 0; 
+  }
+
+.search-container input[type="text"] {
+  border: none;
+  background: transparent;
+  color: #F1CF9D;
+  padding: 5px;
+  width: 90%;
+  border-radius: 10px;
+  outline: none;
+   z-index: 10;
+   
+
+}
+
+.rec {
+	width: 530px;
+
+	position: absolute;
+height: 169px;
+top: 500px;
+left: 41px;
+border-radius: 47px;
+
+}
+
+.rei {
+	width: 530px;
+
+	position: absolute;
+height: 169px;
+top: 500px;
+left: 600px;
+border-radius: 47px;
+}
+
+
+.rlit h2{
+	position: absolute;
+	width: 301px;
+height: 104px;
+top: 1000px;
+left: 200px;
+color: #F1CF9D;
+text-align: center;
+font-family: Cormorant Infant;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+
+
+.zlit h3{
+	position: absolute;
+	width: 301px;
+height: 104px;
+top: 1000px;
+left: 760px;
+color: #F1CF9D;
+text-align: center;
+font-family: Cormorant Infant;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+
+
+.vk{
+	width: 57px;
+height: 57px;
+flex-shrink: 0;
+top: 1180px;
+left: 20px;
+position: absolute;
+}
+
